@@ -23,7 +23,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    animation: 0.4s linear forwards Background-Animation;
+    animation: 0.2s linear forwards Background-Animation;
 }
 
 @keyframes Background-Animation {
