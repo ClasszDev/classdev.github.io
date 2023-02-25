@@ -1,0 +1,157 @@
+html, body {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#background {
+    background-image: url("assets/background.jpg");
+
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#root {
+    z-index: 2;
+}
+
+#Main-Icon {
+    text-align: center;
+
+    font-size: max(1.85em, 2vw);
+    color: rgb(233, 202, 137);
+}
+
+#Main-Icon img {
+    width: 5vw;
+    height: auto;
+
+    min-width: 150px;
+
+    border-radius: 30px;
+}
+
+#Main-Text {
+    min-height: 550px;
+    min-width: 310px;
+
+    background-color: rgb(27, 27, 27);
+    background-color: rgba(27, 27, 27, 1);
+
+    color: white;
+    font-weight: bold;
+
+    position: absolute;
+    border: 3px solid #f1f1f1;
+
+    border-radius: 25px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    width: 40vw;
+    height: 40vw;
+
+    text-align: center;
+    font-size: max(1.25em, 1vw);
+
+    padding: 20px;
+}
+
+#Main-Text h2 img {
+    width: max(1em, 6vw);
+}
+
+#Excalibur {
+    min-height: 300px;
+    min-width: 300px;
+
+    background-color: rgba(1, 1, 1, 0);
+
+    color: white;
+    font-weight: bold;
+
+    position: absolute;
+
+    top: 20%;
+    left: 15%;
+
+    transform: translate(-13vw, -1vw);
+
+    z-index: 4;
+}
+
+#Excalibur p img {
+    width: max(1em, 12vw);
+    height: auto;
+
+    rotate: 25deg;
+}
+
+#Main-Header {
+    opacity: 1;
+
+    align-items: center;
+    text-align: center;
+
+    border: 3px solid #f1f1f1;
+
+    border-top: solid 1px rgba(27, 27, 27, 1);
+    box-shadow: 0 2px 20px -10px;
+
+    min-height: 40px;
+    background-color: rgba(27, 27, 27, 1);
+
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+    width: 110%;
+
+    height: max(1em, 2.5vw);
+
+    position: fixed;
+    top: 0px;
+    
+    left: -1%;
+
+    z-index: 3;
+}
+
+#Main-Header header {
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+#Main-Header-Text {
+    text-align: center;
+    transform: translate(1.5vw);
+
+    font-size: max(1.5em 0vw);
+    color: rgb(103, 145, 235);
+
+    margin: 0px;
+    border: 0;
+
+    margin-bottom: 0px;
+}
